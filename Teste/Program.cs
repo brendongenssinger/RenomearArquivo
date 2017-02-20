@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Xml;
 
 namespace Teste
 {
@@ -11,7 +12,7 @@ namespace Teste
     {
         static void Main(string[] args)
         {
-            
+            RepositorioParamentrosXml.repositorio();
             string[] arquivos = Directory.GetFiles("C:\\Desenvolvimento", "*.0001", SearchOption.AllDirectories);
             Console.WriteLine(" LENDO ARQUIVOS ");
             int count = 0;
