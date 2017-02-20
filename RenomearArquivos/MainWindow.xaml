@@ -1,0 +1,24 @@
+﻿<Window x:Class="RenomearArquivos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RenomearArquivos"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="234.314" Width="422.059">
+    <Grid>
+        <Button x:Name="button" Content="Converter" HorizontalAlignment="Left" Margin="165,120,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Label x:Name="label" Content="CONVERSOR DE NOME DE ARQUIVO" HorizontalAlignment="Left" Margin="78,36,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="266">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.316"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox x:Name="Caminho" HorizontalAlignment="Left" Height="23" Margin="67,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280"/>
+
+    </Grid>
+</Window>

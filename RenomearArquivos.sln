@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenomearArquivos", "RenomearArquivos\RenomearArquivos.csproj", "{5BE79606-93CC-4F76-94DD-18261E14ED76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste", "Teste\Teste.csproj", "{743ED3AF-A198-469B-9449-F7F8E8BD89E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BE79606-93CC-4F76-94DD-18261E14ED76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE79606-93CC-4F76-94DD-18261E14ED76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE79606-93CC-4F76-94DD-18261E14ED76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE79606-93CC-4F76-94DD-18261E14ED76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{743ED3AF-A198-469B-9449-F7F8E8BD89E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{743ED3AF-A198-469B-9449-F7F8E8BD89E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{743ED3AF-A198-469B-9449-F7F8E8BD89E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{743ED3AF-A198-469B-9449-F7F8E8BD89E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
