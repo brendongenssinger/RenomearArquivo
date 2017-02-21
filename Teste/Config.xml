@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Configuracao>
-  <CaminhoDoArquivo>Teste</CaminhoDoArquivo>
+  <CaminhoDoArquivo>D:\Teste\</CaminhoDoArquivo>
   <QuantidadeDigitosProtocolo>6</QuantidadeDigitosProtocolo>
-  <PastaTemp></PastaTemp>
-  
+  <PastaTemp>D:\Teste\backup</PastaTemp>  
 </Configuracao>

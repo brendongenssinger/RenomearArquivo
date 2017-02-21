@@ -6,16 +6,21 @@ namespace Teste
     {
         public static void repositorio()
         {
-            XmlDocument xml = new XmlDocument();
-            xml.Load(@"C:\Users\brendon\Documents\Visual Studio 2015\Projects\RenomearArquivos\RenomearArquivos\Teste\Config.xml");
             ParamentrosXml paramentrosXml = new ParamentrosXml();
-           
-            foreach (var item in xml)
-            {
-                paramentrosXml.CaminhoDoArquivo = item.GetElementById("CaminhoDoArquivo").ToString();
-            }
+            XmlDocument xml = new XmlDocument();
+            xml.Load(@"C:\Users\brendon\Source\Repositorio\RenomearArquivo\Teste\Config.xml");
+
+            XmlNode xmlConfiguracao = xml.SelectSingleNode("Configuracao");
+            XmlNode xmlCaminhoDoArquivo = xmlConfiguracao.SelectSingleNode("CaminhoDoArquivo");
+            XmlNode xmlQuantidadeDigitosProtocolos = xmlConfiguracao.SelectSingleNode("QuantidadeDigitosProtocolo");
+            XmlNode xmlPastaTemp = xmlConfiguracao.SelectSingleNode("PastaTemp");
+
+            paramentrosXml.CaminhoDoArquivo = xmlCaminhoDoArquivo.InnerText;
+            paramentrosXml.QuantidadeDigitosProtocolo = int.Parse(xmlQuantidadeDigitosProtocolos.InnerText);
+            paramentrosXml.CaminhoPastaTemp = xmlPastaTemp.InnerText;
+
         }
-        
+
 
     }
 }
