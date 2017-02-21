@@ -5,10 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RenomearArquivos"
         mc:Ignorable="d"
-        Title="MainWindow" Height="210.029" Width="369.552">
-    <Grid Margin="0,0,-4,-3">
-        <Button x:Name="button" Content="Converter" HorizontalAlignment="Left" Margin="132,118,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
-        <Label x:Name="label" Content="CONVERSOR DE NOME DE ARQUIVO" HorizontalAlignment="Left" Margin="49,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="266">
+        Title="MainWindow" Height="202.153" Width="330.173">
+    <Grid Margin="0,0,9,-3">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="button" Content="Converter" HorizontalAlignment="Left" Margin="118,118,0,0" VerticalAlignment="Top" Width="75" Click="button_Click" FontFamily="Arial" FontSize="13" Height="19"/>
+        <Label x:Name="label" Content="CONVERSOR DE NOME DE ARQUIVO" HorizontalAlignment="Center" Margin="34,39,13,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="264" FontWeight="Bold" FontFamily="Arial" FontSize="14" Height="26">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -18,7 +22,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <TextBox x:Name="Caminho" HorizontalAlignment="Left" Height="23" Margin="25,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280"/>
+        <TextBox x:Name="txtCaminho" HorizontalAlignment="Center" Height="23" Margin="6,73,1,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="304" FontFamily="Arial" FontWeight="Bold" IsReadOnly="True" VerticalContentAlignment="Center"/>
 
     </Grid>
 </Window>
